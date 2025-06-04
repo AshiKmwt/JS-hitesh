@@ -42,3 +42,40 @@ console.log(typeof bigNumber);
 
  console.log(typeof score, typeof scoreValue, typeof isLoggedIn,typeof outsideTemp,typeof  userEmail, typeof userEmail2,typeof  id, typeof anotherid, typeof bigNumber,typeof  heros,typeof  my_obj, typeof myFunc)
 
+
+
+
+
+ /***************************************Stack and Heap Memory********************************* */
+
+
+//  Stack(Primitive) = when we ask any value in this, we always get a copy of the original value,
+//  Heap (Non-Primitive) = when we ask any value here, we always get the original value as we always change the origainal value
+
+let myInstaName = "ashikakumawat"
+
+let anotherName = myInstaName
+anotherName = "ashikathreads"
+
+
+console.log(anotherName);
+console.log(myInstaName);
+
+let user1 = {
+    email:"user@gmail.com",
+    upi: "user@ybl"
+
+}
+
+let user2 = user1
+
+user2.email = "ashika@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+
+
+
+
