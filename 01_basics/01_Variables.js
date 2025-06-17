@@ -1,3 +1,10 @@
+//if you want to master JS , master two things:
+//       1. Objects
+//       2. Events
+
+
+
+
 const accountID = 144555
 let accountEmail = "ashikakmwt@gmail.com"
 var accountPassword = "12345"
