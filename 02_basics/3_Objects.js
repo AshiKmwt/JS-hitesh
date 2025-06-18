@@ -27,7 +27,9 @@ console.log(JSuser.key);
 // console.log(JSuser.full name);           we can't access like this 
 console.log(JSuser["full name"]);
 console.log(JSuser[mySymbol]);
-console.log(typeof [mySymbol]); 
+console.log(typeof mySymbol); 
+
+
 
 
 //Change Values of Objects
@@ -46,8 +48,10 @@ JSuser.greetingTwo = function(){
     console.log(`Hello JS user,${this.age} `);
     
 }
-    
+console.log(JSuser);
+
 console.log(JSuser.greeting());
+    
 console.log(JSuser.greetingTwo());
 
     
