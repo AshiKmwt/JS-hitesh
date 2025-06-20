@@ -23,7 +23,7 @@ console.log(gameName.indexOf("m"));
 const newStr = gameName.substring(0,4)  //can't give neg values
 console.log(newStr);
 
-const anotherStr = gameName.slice(-8,4)
+const anotherStr = gameName.slice(1,-4)
 console.log(anotherStr);
 
 const newStr2 = "     hitesh    "

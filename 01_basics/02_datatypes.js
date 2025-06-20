@@ -34,6 +34,8 @@ console.log(typeof "ashika");
 console.log(typeof age);
 console.log(typeof null); //object 
 console.log(typeof undefined);
+console.log();
+
 
     
 
