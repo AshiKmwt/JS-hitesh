@@ -10,8 +10,6 @@ console.log(myArr[5]);     //indexing of Array
 //shallow copy = heap    deep copy = stack
 
 const myArr2 = new Array(1,2,3,4)
-const str = new String("ashika")
-console.log(str);
 
 
 //Array Methods

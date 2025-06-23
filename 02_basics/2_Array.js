@@ -26,7 +26,7 @@ console.log(realArr);
 
 console.log(Array.isArray("ashika"))
 console.log(Array.from("ashika"))
-console.log(Array.from({name:"ashika"}))  //Interesting
+console.log(Array.from({name:"ashika"}))  //Interesting[]
 
 
 let score1 =100
