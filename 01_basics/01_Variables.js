@@ -27,3 +27,4 @@ accountCity = "Jaipur"
 console.log(accountID);
 
 console.table([accountID,accountEmail,accountPassword,accountCity,accountState])
+  
