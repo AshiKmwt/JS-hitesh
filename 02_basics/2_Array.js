@@ -12,9 +12,10 @@ const allheros = marvelheros.concat(dc_heros)   //returns a new array
 
 const all_newheros = [...marvelheros, ...dc_heros]    //spread operator = kaanch ka glass liya ,usko gira dia, toh vo spread ho gaya
 
-console.log(all_newheros)
+// console.log(all_newheros)
 
 const anotherArr = [1,2,3,[4,5,6,7],7, [6,7,[4,5]]]
+console.log(anotherArr)
 
 const realArr = anotherArr.flat(Infinity)
 console.log(realArr);

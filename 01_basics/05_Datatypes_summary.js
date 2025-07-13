@@ -4,6 +4,7 @@
 
 const score = 55
 const scoreValue = 55.5
+// console.log(typeof scoreValue);
 
 const isLoggedIn = false
 const outsideTemp = null
@@ -23,9 +24,9 @@ const bigNumber = 543879642998647297389783n
 
 //Reference (Non-Primitive)
 
-//Array, Objects Functiions
+//Array[], Objects{}, Functions(){}
 
-const heros = ["shaktiman", "naagraj", "doga"]
+const heros = ["shaktiman", "naagraj", "doga",5]
 
 
 let my_obj = {
@@ -37,6 +38,9 @@ let my_obj = {
 const myFunc = function(){
     console.log("hello world")
 }
+
+myFunc()      //Invocation of Function
+
 
 console.log(typeof bigNumber);
 

@@ -22,9 +22,10 @@ const regUser = {
     }
 }
 
-// console.log(regUser);
+console.log(regUser);
 
 console.log(regUser.fullname.username.firstname);
+
 
 const obj1 ={
     1:"a",
@@ -51,7 +52,7 @@ const users = [
     },
     {
         id:1,
-        email:"a@gamil.com"
+        email:"a@gggggamil.com"
     },
     {
         id:1,

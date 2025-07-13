@@ -21,5 +21,5 @@ console.log(undefined > 0);
 
 //Comparison (>,<,<=,>=) and Equality (==,===) works differently in js
 
-d
+
 console.log("2" === 2);  //will check values and datatype too

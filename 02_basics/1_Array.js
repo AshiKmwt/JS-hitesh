@@ -3,6 +3,7 @@
 //Data Structure means aap data ko rakh kese rahe ho
 
 const myArr = [0,1,2,3,4,5]
+console.log(myArr)
 const Heros = ["shaktiman","naagraj"]
 
 console.log(myArr[5]);     //indexing of Array
@@ -22,7 +23,7 @@ myArr.unshift(9)
 myArr.shift()        //aage se
 
 console.log(myArr.includes(10));
-console.log(myArr.indexOf(9));   //hai hi nahi kyuki toh it will give -1,kyuki js doesn't know
+console.log(myArr.indexOf(9));   //hai hi nahi kyuki toh it will give -1, kyuki js doesn't know
 console.log(myArr.indexOf(5));
 
 
@@ -31,6 +32,7 @@ const newArr = myArr.join();  //binds the Array and convert it into String
 
 console.log(myArr);
 console.log(newArr);
+console.log(newArr.length);
 console.log(typeof newArr);
 
 //slice and Splice

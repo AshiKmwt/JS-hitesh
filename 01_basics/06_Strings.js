@@ -1,13 +1,13 @@
 const name = "ashika";
 const repo = 5;
 
-console.log(name + repo  + "on github");  //not recommended cause outdated
+console.log(name+ repo+ "on github");  //not recommended cause outdated
 
 //backtick
 
-console.log(`Hello my name is ${name} and my repo Count is ${repo}`); //string interpolation
+console.log(`Hello my name is ${name} and my repo Count is ${repo}`); //string interpolation ${}
 
-const gameName = new String("ashika-kmwt-com")
+const gameName =new String("ashika-kmwt-com")
 console.log(gameName);
 
 console.log(gameName[9])
@@ -15,7 +15,8 @@ console.log(gameName.__proto__);
 
 
 console.log(gameName.length);
-console.log(gameName.toUpperCase());
+let low = console.log(gameName.toUpperCase());
+
 console.log(gameName.charAt("7")); //have to give indexing
 console.log(gameName.indexOf("a"));
 console.log(gameName.indexOf("m"));

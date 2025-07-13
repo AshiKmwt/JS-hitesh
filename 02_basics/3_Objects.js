@@ -6,10 +6,11 @@ const mySymbol = Symbol("mykey1")
 
 
 //object literals
+
 const JSuser = {
     key:"value",
     name:"krishna",
-   "full name":"Krishna Yadav",
+   "full name":"Krishna Yadav",           
     [mySymbol]:"mykey1",
     age:22,
     location:"jaipur",
@@ -24,7 +25,8 @@ const JSuser = {
 //Access value of Objects
 
 console.log(JSuser.key);
-// console.log(JSuser.full name);           we can't access like this 
+
+// console.log(JSuser.full name);       //    we can't access like this 
 console.log(JSuser["full name"]);
 console.log(JSuser[mySymbol]);
 console.log(typeof mySymbol); 
@@ -35,7 +37,7 @@ console.log(typeof mySymbol);
 //Change Values of Objects
 
 JSuser.email = "ashika@gmail.com"
-// Object.freeze(JSuser)              //this will freeze the object and it can't be changed after this
+// Object.freeze(JSuser)        //this will freeze the object and it can't be changed after this
 JSuser.email = "ashika@chatgpt.com"
 console.log(JSuser);
  
@@ -50,9 +52,9 @@ JSuser.greetingTwo = function(){
 }
 console.log(JSuser);
 
-console.log(JSuser.greeting());
+JSuser.greeting();
     
-console.log(JSuser.greetingTwo());
+JSuser.greetingTwo();
 
     
 

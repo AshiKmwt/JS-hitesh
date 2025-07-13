@@ -21,10 +21,11 @@ because of issue in block scope and functional scope
 */
 
 accountEmail ="sjdfiu.gmail.com"
-accountPassword ="55647"
+accountPassword =55647
 accountCity = "Jaipur"
 
 console.log(accountID);
 
 console.table([accountID,accountEmail,accountPassword,accountCity,accountState])
   
+// console.log(typeof accountPassword)

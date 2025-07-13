@@ -15,6 +15,7 @@ let name = "ashika";
 let age = 5;
 let isLoggedIN = false;
 let state;
+let state2 = null
 
 
 
